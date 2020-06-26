@@ -32,7 +32,7 @@ public class Main {
 			MSEValue += (rValue[i] - (slope*predict[i]+intercept)) * (rValue[i] - (slope*predict[i]+intercept));
 		}
 		return MSEValue;
-	} //MSE는 (실제측정값 - 예측값)의 제곱의 .
+	} //MSE는 (실제측정값 - 예측값)의 제곱의 합
 	
 	
 	
