@@ -15,10 +15,7 @@
 ![data](https://user-images.githubusercontent.com/63089782/85837441-f7679f80-b7d2-11ea-94de-38b0353fbd43.png)
 
 ## 출력 결과물
-최소 MSE값과 회귀식이 출력됨을 알 수 있습니다.
-![realcode](https://user-images.githubusercontent.com/63089782/85837538-19f9b880-b7d3-11ea-8c28-9197ab47021d.png)
-## 결과 그래프
-코드로 구현한 회귀식으로 그린 그래프입니다.
+코드로 구현된 회귀식으로 그린 그래프입니다.
 
-실제 엑셀로 나타낸 회귀식은 y=4.6x+49.2로 기울기는 0.4, y절편은 1.2정도의 차이가 있었습니다.
+엑셀로 계산된 실제 회귀식은 y=4.6x+49.2로 기울기는 0.4, y절편은 1.2정도의 차이가 있었습니다.
 ![graph](https://user-images.githubusercontent.com/63089782/85837551-2120c680-b7d3-11ea-80a2-29e86182c0df.png)
