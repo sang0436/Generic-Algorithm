@@ -32,7 +32,7 @@ public class Main {
 			MSEValue += (rValue[i] - (slope*predict[i]+intercept)) * (rValue[i] - (slope*predict[i]+intercept));
 		}
 		return MSEValue;
-	} //MSE는 (실제측정값 - 예측값)의 제곱.
+	} //MSE는 (실제측정값 - 예측값)의 제곱의 .
 	
 	
 	
@@ -145,7 +145,7 @@ public class Main {
 	public static void main(String[] args) {
 		int[] x = initSlope();
 		int[] y = initIntercept();
-		int predict[] = {1,2,3,4,5};
+		int predict[] = {1,2,3,4,5}; //1~5는 단순한 년수의 변화임. 4는 3년 뒤임.
 		int RValue[] = {52,59,65,69,70};
 		for(int i=0 ; i<100000 ; i++) { //100000회 반복
 			
