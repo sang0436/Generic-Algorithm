@@ -51,8 +51,8 @@ public class Main {
 		}
 		
 		for(int i=0;i<slopeArr.length;i++) {
-            Roulette[i] = MSESum - Roulette[i];
-            RouletteSum += Roulette[i];
+            		Roulette[i] = MSESum - Roulette[i];
+            		RouletteSum += Roulette[i];
         }
 		
 		double [] ratio = new double[slopeArr.length];
@@ -101,18 +101,18 @@ public class Main {
 		String[] arr = new String[x.length];
 		for(int i=0 ; i<x.length/2 ; i+=2) {
 			String bit1 = int2String(Integer.toBinaryString(x[i]));
-            String bit2 = int2String(Integer.toBinaryString(x[i+1]));
+            		String bit2 = int2String(Integer.toBinaryString(x[i+1]));
 
-            arr[i] = bit1.substring(0, 4) + bit2.substring(4, 8);
-            arr[i+1] = bit2.substring(0, 4) + bit1.substring(4, 8);
+            		arr[i] = bit1.substring(0, 4) + bit2.substring(4, 8);
+            		arr[i+1] = bit2.substring(0, 4) + bit1.substring(4, 8);
 		}
 		
 		for(int j=x.length/2 ; j<x.length ; j+=2) {
 			String bit1 = int2String(Integer.toBinaryString(x[j]));
-            String bit2 = int2String(Integer.toBinaryString(x[j+1]));
+            		String bit2 = int2String(Integer.toBinaryString(x[j+1]));
 
-            arr[j] = bit1.substring(0, 4) + bit2.substring(4, 8);
-            arr[j+1] = bit2.substring(0, 4) + bit1.substring(4, 8);
+           	 	arr[j] = bit1.substring(0, 4) + bit2.substring(4, 8);
+            		arr[j+1] = bit2.substring(0, 4) + bit1.substring(4, 8);
 		}
 		
 		return arr;
